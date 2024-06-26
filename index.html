@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav
+        class="navbar navbar-expand-sm navbar-light"
+    >
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Assets/logo-ibomma.svg" alt=""></a>
+            <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon  bg-success"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#" aria-current="page"
+                            ><i class="bi bi-house-door-fill"></i> Home
+                            <span class="visually-hidden">(current)</span></a
+                        >
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-info bold"></i>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-bug-fill"></i>Bug</a>
+                    </li>
+                </ul>
+                <form class="d-flex my-2 my-lg-0">
+                    <input
+                        class="form-control me-sm-2"
+                        type="text"
+                        placeholder="Search"
+                    />
+                    <button
+                        class="btn btn-outline-success my-2 my-sm-0"
+                        type="submit"
+                    >
+                        Search
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="container-fluid heropage p-5">
+        <div class="row">
+            <div class="col-5 col-md-3">
+                <img class="bg-center" src="Assets/Kalki_2898_AD.jpg.webp" alt="">
+            </div>
+            <div class="col-7 col-md-9">
+                <h1>Kalki 2898 AD</h1> <br>
+                2024 <br>
+                Sci-fi/Action <br>
+                <br>
+                <strong><i class="bi bi-person-fill"></i> Cast:</strong> Prabhas · Bhairava ; Amitabh Bachchan · Ashwatthama ; Kamal Haasan · Supreme Yaskin ; Deepika Padukone · Sum 80 ; Disha Patani · Roxie. <br>
+                <strong><i class="bi bi-person-fill"></i> Director:</strong>Nag Ashwin
+                <br> <br>
+                <a href="https://youtu.be/y1-w1kUGuz8?si=_z3wMDdpqIPE_BpE"><button class="bg-warning-subtle text-success"> Trailer</button></a>
+                <a href="https://in.bookmyshow.com/buytickets/kalki-2898-ad-3d-kakinada/movie-kaki-ET00402190-MT/20240627"><button class="bg-success px-2" onclick="kalki()"> Watch Movie</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <a href="https://in.bookmyshow.com/buytickets/kalki-2898-ad-3d-kakinada/movie-kaki-ET00402190-MT/20240627"><img onclick="kalki()" class="w-100" src="Assets/videoframe_16405.png" alt="">
+        </a>
+    </section>
+    <section class="container-fluid p-5">
+        <strong class="text-success">Synposis: </strong>A modern avatar of the Hindu god Vishnu, is said to have descended on Earth to protect the world from evil forces. <br> <br>
+        In 2898 AD, the desertified city of Kasi is now the only city known to exist, ruled by a totalitarian elite, led by god king Supreme Yaskin, from a hovering inverted-pyramidal-megastructure above the city, known as the "Complex". Set against the backdrop of ancient Indian Hindu mythology and a dystopian society, the story chronicles the journey spanning millennia, from the events of the Mahabharata in the year 3102 BC, the beginning of Kali Yuga, to 2898 AD. The core of the narrative revolves around the arrival of enigmatic figure of Kalki, the tenth and final avatar of the Hindu deity, Vishnu.[13]
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="watch.js"></script>
+</body>
+</html>

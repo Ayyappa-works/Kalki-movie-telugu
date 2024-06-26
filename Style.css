@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 18, 18);
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-nav i{
+    color: rgb(6, 137, 6);
+}
+.heropage button{
+    width: 180px;
+    height: 40px;
+    border: none;
+}
+@media(max-width:600px){
+    .heropage button {
+        width: 160px;
+        height: 40px;
+        border: none;
+        margin-bottom: 20px;
+    }
+    .heropage img{
+        width: 150px;
+    }
+}
